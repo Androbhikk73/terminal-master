@@ -4,6 +4,9 @@ import { Trash } from "react-bootstrap-icons";
 import "./DataResTable.css";
 
 const DataResult = () => {
+	const [userData, setUserData] = React.useState([]);
+	const [dataCount, setDataCount] = React.useState(1);
+
 	return (
 		<Container className="pt-4 px-3">
 			<Card>
