@@ -1,0 +1,12 @@
+.result-table th,
+td {
+	padding: 0.5rem;
+	font-family: "PN Regular";
+	font-size: 12px;
+}
+.result-table td {
+	color: rgb(93, 98, 103);
+}
+.page-link:focus {
+	box-shadow: none !important;
+}

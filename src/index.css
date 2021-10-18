@@ -1,0 +1,32 @@
+@font-face {
+	font-family: "PN Medium";
+	src: url("./assets/fonts/PostNordSans-Medium.woff") format("woff"), url("./assets/fonts/PostNordSans-Medium.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "PN Bold";
+	src: url("./assets/fonts/PostNordSans-Bold.woff") format("woff"), url("./assets/fonts/PostNordSans-Bold.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "PN Regular";
+	src: url("./assets/fonts/PostNordSans-Regular.woff") format("woff"), url("./assets/fonts/PostNordSans-Regular.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	margin: 0;
+	font-family: "PN Regular", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #faf9f8;
+}
+
+.btn:focus,
+.btn-close:focus,
+.form-control:focus {
+	box-shadow: none !important;
+}
